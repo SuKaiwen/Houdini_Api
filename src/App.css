@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(white, var(--color-stop));
+  transition: --color-stop 1s;
+}
+
+.container:hover{
+  --color-stop: black;
+}
